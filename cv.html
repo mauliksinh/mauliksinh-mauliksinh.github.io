@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mauliksinh Parmar — CV</title>
+  <meta name="description" content="CV of Mauliksinh Parmar, senior software engineer working on AI integration and enterprise .NET.">
+  <link rel="canonical" href="https://mauliksinh.github.io/cv.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #f3f3f0; --paper: #ffffff; --text: #16181b; --muted: #555b64; --faint: #868c95;
+      --line: #e3e2dc; --accent: #0f6e5c;
+      --sans: ui-sans-serif, -apple-system, "Segoe UI", system-ui, Roboto, Arial, sans-serif;
+      --mono: ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+      color-scheme: light;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --bg: #0e1013; }
+    }
+    :root[data-theme="dark"] { --bg: #0e1013; }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 10.5pt/1.5 var(--sans); -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-underline-offset: 2px; text-decoration-color: var(--line); }
+
+    .toolbar { max-width: 210mm; margin: 24px auto 12px; padding: 0 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; }
+    .toolbar a { color: var(--faint); text-decoration: none; }
+    .toolbar a:hover { color: var(--accent); }
+    .toolbar button { font: 600 14px var(--sans); padding: 9px 16px; border-radius: 9px; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
+
+    .page { max-width: 210mm; margin: 0 auto 40px; background: var(--paper); padding: 16mm 17mm; box-shadow: 0 2px 24px rgba(0,0,0,.08); border-radius: 6px; }
+
+    header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding-bottom: 10px; border-bottom: 2px solid var(--text); flex-wrap: wrap; }
+    h1 { font-size: 22pt; line-height: 1.1; margin: 0; letter-spacing: -0.02em; }
+    .title { color: var(--accent); font-weight: 600; margin-top: 3px; font-size: 11.5pt; }
+    .contact { text-align: right; color: var(--muted); font-size: 9.5pt; line-height: 1.55; }
+    .contact a { text-decoration: none; }
+
+    h2 { font: 700 8.5pt/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 14px 0 6px; }
+    p { margin: 0 0 6px; }
+    .summary { color: var(--text); }
+
+    .skills { display: grid; grid-template-columns: 34mm 1fr; gap: 2px 10px; font-size: 9.5pt; }
+    .skills dt { font-weight: 600; }
+    .skills dd { margin: 0; color: var(--muted); }
+
+    .job { margin-bottom: 8px; }
+    .job-head, li, .context { break-inside: avoid; }
+    .job-head, .sub { break-after: avoid; }
+    .job-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+    .job-head h3 { font-size: 11pt; margin: 0; }
+    .job-head h3 span { font-weight: 400; color: var(--muted); }
+    .when { color: var(--faint); font-size: 9pt; white-space: nowrap; }
+    .context { color: var(--muted); margin: 2px 0 3px; font-size: 9.5pt; }
+    .sub { font: 600 8pt/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--faint); margin: 7px 0 3px; }
+    ul { margin: 0; padding-left: 15px; }
+    li { margin: 1.5px 0; }
+    li::marker { color: var(--faint); }
+    li b { font-weight: 600; }
+
+    @media (max-width: 640px) {
+      .page { padding: 20px 16px; border-radius: 0; }
+      .contact { text-align: left; }
+      .skills { grid-template-columns: 1fr; }
+      .skills dd { margin-bottom: 6px; }
+    }
+
+    @page { size: A4; margin: 12mm 13mm; }
+    @media print {
+      body { background: #fff; font-size: 10pt; }
+      .toolbar { display: none; }
+      .page { box-shadow: none; margin: 0; padding: 0; max-width: none; border-radius: 0; }
+      a { text-decoration: none; }
+    }
+  </style>
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="./">← mauliksinh.github.io</a>
+    <button type="button" onclick="window.print()">Save as PDF</button>
+  </div>
+
+  <main class="page">
+    <header>
+      <div>
+        <h1>Mauliksinh Parmar</h1>
+        <div class="title">Senior Software Engineer · AI &amp; .NET</div>
+      </div>
+      <div class="contact">
+        Ahmedabad, India<br>
+        <span data-email-text>Email: see mauliksinh.github.io</span><br>
+        <a href="https://www.linkedin.com/in/mauliksinh-parmar">linkedin.com/in/mauliksinh-parmar</a><br>
+        <a href="https://mauliksinh.github.io">mauliksinh.github.io</a>
+      </div>
+    </header>
+
+    <h2>Summary</h2>
+    <p class="summary">Senior software engineer with 5+ years building enterprise systems in C# and .NET, now focused on connecting AI to them. For the past two years, core developer on the operations platform of a US property-management company, owning work from the first conversation with the business through design, delivery and production support. Designed the platform's AI integration layer, which gives Claude and a partner's AI agent governed, read-only access to live operations data. Works directly with non-technical stakeholders and turns loose requests into clear specs.</p>
+
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>AI &amp; agents</dt><dd>Model Context Protocol (C# SDK, stdio and HTTP), Claude API, Claude Code, Copilot Studio, Dify, OCR ingestion</dd>
+      <dt>Backend</dt><dd>C#, .NET 8, ASP.NET Core, ASP.NET MVC, Entity Framework Core, LINQ, ABP Framework</dd>
+      <dt>APIs &amp; integration</dt><dd>REST, OpenAPI/Swagger, scoped API keys, SignalR, Microsoft Graph, Yardi, ADP, Zapier, Power Automate, SFTP, RabbitMQ, Hangfire</dd>
+      <dt>Data</dt><dd>SQL Server, Azure SQL (stored procedures, query tuning, re-runnable schema scripts), PostgreSQL, MySQL</dd>
+      <dt>Cloud &amp; security</dt><dd>Azure App Service, Blob Storage, Entra ID / OIDC, ASP.NET Core Data Protection, role-based access</dd>
+      <dt>Frontend &amp; delivery</dt><dd>JavaScript, TypeScript, AngularJS, jQuery · xUnit, Azure DevOps, Git, Postman, Selenium</dd>
+    </dl>
+
+    <h2>Experience</h2>
+
+    <section class="job">
+      <div class="job-head">
+        <h3>Solvios Technology <span>· Senior Software Engineer</span></h3>
+        <span class="when">Ahmedabad · Nov 2024 – Present</span>
+      </div>
+      <p class="context">Core developer on the operations platform of a US multifamily property-management company (ASP.NET Core, SQL Server, Azure). Work directly with the client's business teams and own features from requirements to live deployment and support.</p>
+
+      <div class="sub">AI integration</div>
+      <ul>
+        <li><b>Designed the AI integration layer.</b> Built an MCP server that lets Claude answer operations questions from live property, vendor, staff and incident data. Built it on the platform's existing API rather than the database, so AI access follows the same business rules as the app, and fixed the latency that made it unusable mid-conversation.</li>
+        <li><b>Delivered the data API behind a partner's AI agent.</b> Worked from the partner's specification with the client's teams to expose leasing and collections data, and built do-not-contact handling into the API so compliance never depends on the agent's judgement.</li>
+        <li><b>Leading the move to scoped, revocable API credentials.</b> Replacing shared configuration keys with per-client keys and permissions, rolled out alongside the old ones so no live integration breaks.</li>
+        <li><b>Governed LLM use inside the app.</b> Encrypted key storage, usage tracking and admin-controlled spending limits.</li>
+      </ul>
+
+      <div class="sub">Platform ownership</div>
+      <ul>
+        <li><b>Workflow automation.</b> Redesigned automatic task assignment around departments and role hierarchy with explicit fallbacks, removing hard-coded user and role assumptions that sent work to the wrong people.</li>
+        <li><b>Business modules.</b> Delivered HR, payroll, compliance and support modules end to end, from stakeholder requirements to live use.</li>
+        <li><b>Integrations and scheduled work.</b> Yardi, ADP, Microsoft Graph, Zapier and SFTP integrations, with background jobs and run monitoring on Hangfire. Led the migration of document storage off a retired Azure authentication service.</li>
+        <li><b>Security.</b> Moved permission checks to the server so access rules cannot be bypassed from the browser; added support impersonation for safe troubleshooting.</li>
+        <li><b>Production support.</b> Diagnose performance and data-integrity problems to root cause and fix them at the source rather than with workarounds.</li>
+        <li><b>Delivery practice.</b> Introduced spec-first delivery with Claude Code (AI-DLC) and unit tests around authentication, schedulers and API contracts.</li>
+      </ul>
+
+      <div class="sub">Other clients</div>
+      <ul>
+        <li><b>Copilot Studio:</b> production voice receptionist; OCR document AI over SharePoint agreements with role-based access; Teams knowledge-base agents.</li>
+        <li><b>Dify:</b> shopping assistant with recommendations and in-chat purchasing for a premium consumer brand.</li>
+      </ul>
+    </section>
+
+    <section class="job">
+      <div class="job-head">
+        <h3>Tridhya Tech Limited <span>· Software Developer</span></h3>
+        <span class="when">Ahmedabad · Oct 2022 – Oct 2024</span>
+      </div>
+      <ul>
+        <li><b>Finanvo:</b> features for a research platform that turns public government records into financial metrics on registered companies.</li>
+        <li><b>Nextgeninfra:</b> led the kiosk integration; delivered a shop-drawing platform with role-based access.</li>
+        <li><b>Inventory system:</b> end-to-end build on the ABP Framework, designed for modularity and fast reporting.</li>
+      </ul>
+    </section>
+
+    <section class="job">
+      <div class="job-head">
+        <h3>Gatistavam Softech <span>· C# Developer</span></h3>
+        <span class="when">Surendranagar · Mar 2021 – Sep 2022</span>
+      </div>
+      <ul>
+        <li>CRM and inventory master modules; third-party API integrations tested end to end with Postman.</li>
+      </ul>
+    </section>
+
+    <h2>Education</h2>
+    <div class="job-head">
+      <h3 style="font-size:10.5pt;margin:0">Bachelor of Computer Applications (BCA) <span style="font-weight:400;color:var(--muted)">· C.U. Shah University, Surendranagar</span></h3>
+      <span class="when">2021</span>
+    </div>
+  </main>
+
+  <script src="assets/site.js" defer></script>
+</body>
+</html>
